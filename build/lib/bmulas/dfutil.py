@@ -11,6 +11,7 @@ def getNulls(X):
 
     except AssertionError:
         raise AssertionError('{} not a valid class. Expecting pandas DataFrame.'.format(type(X)))
+
 def description(X):
     try:
         assert isinstance(X, pd.DataFrame)
@@ -21,3 +22,12 @@ def description(X):
             print(' ')
     except AssertionError:
         raise AssertionError('{} not a valid class. Expecting pandas DataFrame.'.format(type(X)))
+
+def add_col(df, name, new_list):
+    try:
+        assert len(new_list) == df.shape[0]
+        df[name] = pd.Series(new_list)
+        return df
+
+    except Exception as e:
+        print(e)
