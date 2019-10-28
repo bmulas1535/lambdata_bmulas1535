@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: lambdata-bmulas1535-a
+Version: 0.1.1
+Summary: A Collection of Data Science Helper Functions
+Home-page: https://lambdaschool.com/courses/data-science
+Author: bmulas1535_a
+License: UNKNOWN
+Description: # Repository for lambdata_bmulas1535
+        
+        This repository contains the files for the lambdata_bmulas1535 python package
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
